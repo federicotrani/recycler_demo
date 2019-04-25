@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         items.add(new Pelicula("Rambo III",1987,R.drawable.ic_launcher_background,3.5f));
         items.add(new Pelicula("Terminator II",1992,R.drawable.ic_launcher_background,4.1f));
         items.add(new Pelicula("Volver al Futuro II",1985,R.drawable.ic_launcher_background,2.6f));
+        items.add(new Pelicula("Avengers: End Game",2019,R.drawable.ic_launcher_background,4.8f));
+        items.add(new Pelicula("Shazam",2019,R.drawable.ic_launcher_background,4.6f));
+        items.add(new Pelicula("Wonder Woman",2018,R.drawable.ic_launcher_background,3.3f));
 
         // Obtener el Recycler
         recycler = (RecyclerView) findViewById(R.id.reciclador);
